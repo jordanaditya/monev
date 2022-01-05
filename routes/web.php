@@ -16,3 +16,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('layouts.global');
 });
+
+Route::get('profile', 'App\Http\Controllers\FrontController@profile');
