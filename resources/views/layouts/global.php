@@ -21,9 +21,7 @@
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
 
     <style>
-      .icon-black {
-        color: #33312c;
-      }
+
     </style>
 
 </head>
@@ -48,7 +46,9 @@
             <li class="nav-item">
                 <a class="nav-link" href="laporaninfrastruktur/index">
                     <br>
-                    <h6 style="font-size:11px;"><span class="fas fa-fw fa-circle icon-black"></span> LAPORAN INFRASTRUKTUR TIK</h6></a>
+                    <span style="font-size:10px;"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="14" fill="currentColor" class="bi bi-circle-fill" viewBox="0 6 24 16">
+  <circle cx="10" cy="10" r="10"/>
+</svg> LAPORAN INFRASTRUKTUR TIK</span></a>
             </li>
 
             <!-- Divider -->
@@ -59,13 +59,15 @@
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
                     aria-expanded="true" aria-controls="collapseTwo">
-                    <h6 style="font-size:11px;"><span class="fas fa-fw fa-circle icon-black"></span> PROFIL PERANGKAT DAERAH</h6></a>
+                    <span style="font-size:10px;"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="14" fill="currentColor" class="bi bi-circle-fill" viewBox="0 6 24 16">
+  <circle cx="10" cy="10" r="10"/>
+</svg> PROFIL PERANGKAT DAERAH</span></a>
                 </a>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-                    <div class=" py-2 collapse-inner rounded">
-                        <a class="collapse-item text-white" href="buttons.html">Profil</a>
-                        <a class="collapse-item text-white" href="cards.html">Layanan</a>
-                        <a class="collapse-item text-white" href="cards.html">Sumber Daya Manusia</a>
+                    <div class=" bg-white py-2 collapse-inner rounded">
+                        <a class="collapse-item " href="buttons.html">Profil</a>
+                        <a class="collapse-item " href="cards.html">Layanan</a>
+                        <a class="collapse-item " href="cards.html">Sumber Daya Manusia</a>
                     </div>
                 </div>
             </li>
@@ -77,14 +79,16 @@
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
                     aria-expanded="true" aria-controls="collapseUtilities">
-                    <h6 style="font-size:11px;"><span class="fas fa-fw fa-circle icon-black"></span> PROSEDUR / KEBIJAKAN TIK</h6></a>
+                    <span style="font-size:10px;"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="14" fill="currentColor" class="bi bi-circle-fill" viewBox="0 6 24 16">
+  <circle cx="10" cy="10" r="10"/>
+</svg> PROSEDUR / KEBIJAKAN TIK</span></a>
                 </a>
                 <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
                     data-parent="#accordionSidebar">
-                    <div class=" py-2 collapse-inner rounded">
-                        <a class="collapse-item text-white" href="utilities-color.html">Unit Khusus Pengelolaan <br>TIK</a>
-                        <a class="collapse-item text-white" href="utilities-border.html">Peraturan / Prosedur <br>Operasional TIK</a>
-                        <a class="collapse-item text-white" href="utilities-animation.html">Fasilitas Lain</a>
+                    <div class=" bg-white py-2 collapse-inner rounded">
+                        <a class="collapse-item " href="utilities-color.html">Unit Khusus Pengelolaan <br>TIK</a>
+                        <a class="collapse-item " href="utilities-border.html">Peraturan / Prosedur <br>Operasional TIK</a>
+                        <a class="collapse-item " href="utilities-animation.html">Fasilitas Lain</a>
                     </div>
                 </div>
             </li>
@@ -96,14 +100,16 @@
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsethree"
                     aria-expanded="true" aria-controls="collapseUtilities">
-                    <h6 style="font-size:11px;"><span class="fas fa-fw fa-circle icon-black"></span> SISTEM APLIKASI</h6></a>
+                    <span style="font-size:10px;"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="14" fill="currentColor" class="bi bi-circle-fill" viewBox="0 6 24 16">
+  <circle cx="10" cy="10" r="10"/>
+</svg> SISTEM APLIKASI</span></a>
                 </a>
                 <div id="collapsethree" class="collapse" aria-labelledby="headingUtilities"
                     data-parent="#accordionSidebar">
-                    <div class=" py-2 collapse-inner rounded">
-                        <a class="collapse-item text-white" href="utilities-color.html">Umum</a>
-                        <a class="collapse-item text-white" href="utilities-border.html">Perangkat Lunak</a>
-                        <a class="collapse-item text-white" href="utilities-animation.html">Perangkat Keras</a>
+                    <div class=" bg-white py-2 collapse-inner rounded">
+                        <a class="collapse-item " href="utilities-color.html">Umum</a>
+                        <a class="collapse-item " href="utilities-border.html">Perangkat Lunak</a>
+                        <a class="collapse-item " href="utilities-animation.html">Perangkat Keras</a>
                     </div>
                 </div>
             </li>
@@ -114,7 +120,9 @@
             <!-- Nav Item - Dashboard -->
             <li class="nav-item ">
                 <a class="nav-link" href="index.html">
-                    <h6 style="font-size:10px;"><span class="fas fa-fw fa-circle icon-black"></span> PERENCANAAN DAN ANGGARAN</h6></a>
+                    <span style="font-size:10px;"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="14" fill="currentColor" class="bi bi-circle-fill" viewBox="0 6 24 16">
+  <circle cx="10" cy="10" r="10"/>
+</svg> PERENCANAAN DAN ANGGARAN</span></a>
             </li>
 
             <!-- Divider -->
