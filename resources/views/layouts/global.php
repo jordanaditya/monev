@@ -20,6 +20,12 @@
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
 
+    <style>
+      .icon-black {
+        color: #33312c;
+      }
+    </style>
+
 </head>
 
 <body id="page-top">
@@ -44,8 +50,7 @@
             <!-- Nav Item - Dashboard -->
             <li class="nav-item">
                 <a class="nav-link" href="index.html">
-                    <i class="fas fa-fw fa-circle"></i>
-                    <span>LAPORAN INFRASTRUKTUR TIK</span></a>
+                    <h6 style="font-size:11px;"><span class="fas fa-fw fa-circle icon-black"></span> LAPORAN INFRASTRUKTUR TIK</h6></a>
             </li>
 
             <!-- Divider -->
@@ -56,8 +61,7 @@
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
                     aria-expanded="true" aria-controls="collapseTwo">
-                    <i class="fas fa-fw fa-circle"></i>
-                    <span>PROFIL PERANGKAT DAERAH</span>
+                    <h6 style="font-size:11px;"><span class="fas fa-fw fa-circle icon-black"></span> PROFIL PERANGKAT DAERAH</h6></a>
                 </a>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class=" py-2 collapse-inner rounded">
@@ -75,8 +79,7 @@
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
                     aria-expanded="true" aria-controls="collapseUtilities">
-                    <i class="fas fa-fw fa-circle"></i>
-                    <span>PROSEDUR / KEBIJAKAN TIK</span>
+                    <h6 style="font-size:11px;"><span class="fas fa-fw fa-circle icon-black"></span> PROSEDUR / KEBIJAKAN TIK</h6></a>
                 </a>
                 <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
                     data-parent="#accordionSidebar">
@@ -95,8 +98,7 @@
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsethree"
                     aria-expanded="true" aria-controls="collapseUtilities">
-                    <i class="fas fa-fw fa-circle"></i>
-                    <span>SISTEM APLIKASI</span>
+                    <h6 style="font-size:11px;"><span class="fas fa-fw fa-circle icon-black"></span> SISTEM APLIKASI</h6></a>
                 </a>
                 <div id="collapsethree" class="collapse" aria-labelledby="headingUtilities"
                     data-parent="#accordionSidebar">
@@ -114,8 +116,7 @@
             <!-- Nav Item - Dashboard -->
             <li class="nav-item ">
                 <a class="nav-link" href="index.html">
-                    <i class="fas fa-fw fa-circle"></i>
-                    <span>PERENCANAAN DAN ANGGARAN</span></a>
+                    <h6 style="font-size:10px;"><span class="fas fa-fw fa-circle icon-black"></span> PERENCANAAN DAN ANGGARAN</h6></a>
             </li>
 
             <!-- Divider -->
