@@ -17,6 +17,6 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('profile', 'App\Http\Controllers\FrontController@profile');
+Route::get('profileperangkatdaerah/profile', 'App\Http\Controllers\FrontController@profile');
 
 Route::get('laporaninfrastruktur/index', 'App\Http\Controllers\LaporanInfrastrukturController@index');

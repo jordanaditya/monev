@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class FrontController extends Controller
 {
     public function profile(){
-        return view('/profile');
+        return view('profileperangkatdaerah.profile');
     }
 }
