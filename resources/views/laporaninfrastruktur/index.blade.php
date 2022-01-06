@@ -44,8 +44,9 @@
         <div class="row">
         <div class="col-10">
             <h1 class="h3 col-md-6 row-md-8 mb-3 justify-content-around mb-0 text-gray-800 font-weight-bold">Laporan Infrastruktur TIK</h1>
+            <h6 class="h6 col-md-6 row-md-8 mb-3 justify-content-around mb-0 text-gray-800">*Akan muncul setelah melengkapi semua form</h1>
         </div>
-        <div class="col-2">
+        <div class="col-1">
         <button class=" btn btn-secondary form-rounded dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             2021
         </button>
@@ -53,7 +54,7 @@
         </div>
     </div>
 
-    <br><br>
+    <br>
     <div class="col-lg-12">
         <form method="post" action="#" class="mb-5" enctype="multipart/form-data">
         @csrf
