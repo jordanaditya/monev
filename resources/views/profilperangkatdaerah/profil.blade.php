@@ -79,7 +79,7 @@
         </button>
       </div> -->
       <div class="modal-body">
-        Apakah anda yaking ingin Submit?<br>Mohon periksa kembali isian anda
+        Apakah anda yakin ingin Submit?<br>Mohon periksa kembali isian Anda.
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
