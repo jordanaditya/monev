@@ -44,7 +44,7 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item">
-                <a class="nav-link" href="laporaninfrastruktur/index">
+                <a class="nav-link" href="/laporaninfrastruktur/index">
                     <br>
                     <span style="font-size:10px;"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="14" fill="currentColor" class="bi bi-circle-fill" viewBox="0 6 24 16">
   <circle cx="10" cy="10" r="10"/>
@@ -65,7 +65,7 @@
                 </a>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class=" bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item " href="profileperangkatdaerah/profile">Profil</a>
+                        <a class="collapse-item " href="/profileperangkatdaerah/profile">Profil</a>
                         <a class="collapse-item " href="cards.html">Layanan</a>
                         <a class="collapse-item " href="cards.html">Sumber Daya Manusia</a>
                     </div>
