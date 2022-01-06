@@ -18,8 +18,5 @@ use App\Http\Controllers\LaporanInfrastrukturController;
 Route::get('/', function () {
     return view('index');
 });
-
-
 Route::get('/profileperangkatdaerah/profile', [FrontController::class, 'profile']);
-
 Route::get('/laporaninfrastruktur/index', [LaporanInfrastrukturController::class, 'index']);
