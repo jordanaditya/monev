@@ -11,15 +11,19 @@
     <div class="row">
         <div class="col">
             <img src="{{ asset('img/user.png') }}" width="85px" height="85px">
+            <div class="col-md-3 text-blue">Profil Perangkat Daerah</div>
         </div>
         <div class="col">
             <img src="{{ asset('img/document.png') }}" width="85px" height="85px">
+            <div class="col-md-3 text-blue">Prosedur/Kebijakan Bidang TIK</div>
         </div>
         <div class="col">
             <img src="{{ asset('img/computer.png') }}" width="85px" height="85px">
+            <div class="col-md-3 text-blue">Sistem Aplikasi</div>
         </div>
         <div class="col">
             <img src="{{ asset('img/dna.png') }}" width="85px" height="85px">
+            <div class="col-md-3 text-blue">Perencanaan dan Anggaran</div>
         </div> 
     </div> 
 </div>
