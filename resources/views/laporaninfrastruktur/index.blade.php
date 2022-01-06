@@ -11,56 +11,32 @@
         </div>
     </div>
 
-    <!-- <div class="container">
+    <div class="container">
         <br><br>
 
         <div class="row">
             <div class="col">
                 <img src="{{ asset('img/user.png') }}" width="85px" height="85px">
-                <br>
-                <div class="col-md-3 text-blue-800" style="font-size:15px;">Profil Perangkat Daerah</div>
+                <br><br>
+                <div class="text-blue-800" style="font-size:15px;">Profil Perangkat Daerah</div>
             </div>
             <div class="col">
                 <img src="{{ asset('img/document.png') }}" width="85px" height="85px">
-                <br>
-                <div class="col-md-3 text-blue">Prosedur/Kebijakan Bidang TIK</div>
+                <br><br>
+                <div class="text-blue">Prosedur/Kebijakan Bidang TIK</div>
             </div>
             <div class="col">
                 <img src="{{ asset('img/computer.png') }}" width="85px" height="85px">
-                <br>
-                <div class="col-md-3 text-blue">Sistem Aplikasi</div>
+                <br><br>
+                <div class="text-blue">Sistem Aplikasi</div>
             </div>
             <div class="col">
                 <img src="{{ asset('img/dna.png') }}" width="85px" height="85px">
-                <br>
-                <div class="col-md-3 text-blue">Perencanaan dan Anggaran</div>
+                <br><br>
+                <div class="text-blue">Perencanaan dan Anggaran</div>
             </div> 
         </div> 
-    </div> -->
-    <div class="md-stepper-horizontal orange">
-    
-      <img src="{{ asset('img/user.png') }}" width="85px" height="85px">
-
-      <div class="md-step-bar-left"></div>
-      <div class="md-step-bar-right"></div>
-    
-    <div class="md-step active editable">
-      <img src="{{ asset('img/document.png') }}" width="85px" height="85px">
-      <div class="md-step-bar-left"></div>
-      <div class="md-step-bar-right"></div>
     </div>
-    <div class="md-step active">
-      <img src="{{ asset('img/computer.png') }}" width="85px" height="85px">
-      <div class="md-step-bar-left"></div>
-      <div class="md-step-bar-right"></div>
-    </div>
-    <div class="md-step">
-      <img src="{{ asset('img/dna.png') }}" width="85px" height="85px">
-      
-      <div class="md-step-bar-left"></div>
-      <div class="md-step-bar-right"></div>
-    </div>
-  </div>
 
 
     <br><br>
