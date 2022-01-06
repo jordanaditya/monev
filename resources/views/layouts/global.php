@@ -137,10 +137,13 @@
             <!-- Main Content -->
             <div id="content">
 
+                
+
                 <!-- Topbar -->
                 <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
 
                     <!-- Sidebar Toggle (Topbar) -->
+                    
                     <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
                         <i class="fa fa-bars"></i>
                     </button>
@@ -181,13 +184,17 @@
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
 
+                
+
                     <!-- Content Row -->
                     <div class="row">
+                        <h1 class="h3 col-md-6 row-md-8 mb-3 justify-content-around mb-0 text-gray-800 font-weight-bold">Monev Infrastruktur TIK</h1>
+                    </div>
 
                     <!-- Content Row -->
 
                     <div class="row">
-                        
+                        <hr class="mt-2 mb-3">    
                     </div>
 
                     <!-- Content Row -->
