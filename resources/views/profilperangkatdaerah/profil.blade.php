@@ -3,7 +3,7 @@
 @section('container')
    <h1 class="h3 col-md-6 row-md-8 mb-3 justify-content-around mb-0 text-gray-800 font-weight-bold">Profil Perangkat Daerah</h1>
    <div class="col-lg-12">
-   <form method="post" action="#" class="mb-5" enctype="multipart/form-data">
+   <form method="post" action="/profilperangkatdaerah/profil/create" class="mb-5" enctype="multipart/form-data">
    @csrf
    <div class="ml-4 row">
       <label for="inputText" class="col-sm-4 col-form-label font-perfect" >Nama Perangkat Daerah</label>
@@ -83,7 +83,7 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
-        <button type="button" class="btn btn-primary">Simpan</button>
+        <button type="submit" class="btn btn-primary">Simpan</button>
       </div>
     </div>
   </div>

@@ -10,16 +10,43 @@ class FrontController extends Controller
         return view('profilperangkatdaerah.profil');
     }
 
-    public function create(Request $request){
-        $validatedData = $request->validate([
-            'title' => 'required|max:255',
-            'slug' => 'required|unique:posts',
-            'category_id' => 'required',
-            'image' => 'image|file|max:1024',
-            'body' => 'required'
+    public function store(Request $request){
+        $this->validate($request, [
+            'nama_perangkat_daerah' => 'required|string|max:155',
+            'nama_pemimpin' => 'required',
+            'alamat_kantor' => 'required',
+            'telepon' => 'required',
+            'email' => 'required',
+            'nama_pengelola' => 'required',
+            'nomor_pengelola' => 'required',
+            'email_pengelola' => 'required'
         ]);
-        Post::create($validatedData);
 
-        return redirect('/dashboard/posts')->with('success', 'New post has ben added!');
+        $profil = Profil::create([
+            'nama_perangkat_daerah' => $request->nama_perangkat_daerah,
+            'nama_pemimpin' => $request->nama_pemimpin,
+            'alamat_kantor' => $request->alamat_kantor,
+            'telepon' => $request->telepon,
+            'email' => $request->email,
+            'nama_pengelola' => $request->nama_pengelola,
+            'nomor_pengelola' => $request->nomor_pengelola,
+            'email_pengelola' => $request->email_pengelola
+        ]);
+
+        
+        if ($profil) {
+            return redirect()
+                ->route('profilperangkatdaerah.profil')
+                ->with([
+                    'success' => 'New post has been created successfully'
+                ]);
+        } else {
+            return redirect()
+                ->back()
+                ->withInput()
+                ->with([
+                    'error' => 'Some problem occurred, please try again'
+                ]);
+        }
     }
 }

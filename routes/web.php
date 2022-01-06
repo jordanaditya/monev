@@ -20,4 +20,4 @@ Route::get('/', function () {
 });
 Route::get('/profilperangkatdaerah/profil', [FrontController::class, 'profil']);
 Route::get('/laporaninfrastruktur/index', [LaporanInfrastrukturController::class, 'index']);
-Route::post('/profil/create', [FrontController::class, 'create']);
+Route::post('/profilperangkatdaerah/profil/create', [FrontController::class, 'store']);
