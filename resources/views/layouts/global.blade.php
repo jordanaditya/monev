@@ -71,7 +71,7 @@
                 </a>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class=" bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item " href="/profileperangkatdaerah/profile">Profil</a>
+                        <a class="collapse-item " href="/profilperangkatdaerah/profil">Profil</a>
                         <a class="collapse-item " href="cards.html">Layanan</a>
                         <a class="collapse-item " href="cards.html">Sumber Daya Manusia</a>
                     </div>
