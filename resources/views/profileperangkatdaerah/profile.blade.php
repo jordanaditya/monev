@@ -60,7 +60,7 @@
    <br>
    <div class="ml-4 row">
       <div class="col-sm-8">
-         <button type="button" class="btn btn-primary btn-lg float-right btn-sm rounded-pill">Simpan</button>
+         <button type="button" class="btn btn-primary btn-lg float-right btn-sm">Simpan</button>
       </div>
    </div>
 @endsection
