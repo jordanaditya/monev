@@ -146,19 +146,20 @@
                 <table class="table table-borderless col-12">
                     <thead>
                         <tr>
-                        <th scope="col-sm-10">No</th>
-                        <th scope="col-10">Jenis Pelayanan Publik</th>
-                        <th scope="col-10">Penjelasan Alur/Proses Layanan</th>
-                        <th scope="col-10">Diagram Alir Layanan</th>
-                        <th scope="col-10">Sudah menggunakan alat bantu TIK?(Aplikasi)</th>
+                        <th scope="col-sm-10"><h6 style="font-size: 12px; font-weight: bold;">No</h6></th>
+                        <th scope="col-10"><h6 style="font-size: 12px; font-weight: bold;">Jenis Pelayanan Publik</h6></th>
+                        <th scope="col-10"><h6 style="font-size: 12px; font-weight: bold;">Penjelasan Alur/Proses Layanan</h6></th>
+                        <th scope="col-10"><h6 style="font-size: 12px; font-weight: bold;">Diagram Alir Layanan</h6></th>
+                        <th scope="col-10"><h6 style="font-size: 12px; font-weight: bold;">Sudah menggunakan alat bantu TIK?(Aplikasi)</h6></th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                        <!-- <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td> -->
+                        <th><h6 style="font-size: 12px;" class="bg-secondary text-white container form-rounded">1</h6></th>
+                        <td><h6 style="font-size: 12px;" class="bg-secondary text-white container form-rounded">Mark</h6></td>
+                        <td><h6 style="font-size: 12px;" class="bg-secondary text-white container form-rounded">Otto</h6></td>
+                        <td><h6 style="font-size: 12px;" class="bg-secondary text-white container form-rounded">wow</h6></td>
+                        <td><h6 style="font-size: 12px;" class="bg-secondary text-white container form-rounded">Tidak</h6></td>
                         </tr>
                     </tbody>  
                 </table>
